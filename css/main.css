@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  border: red;
+  border-style: solid;
+  background-color: grey;
+}
+
+/* HEADER + NAVBAR */
+
+.header {
+  background-color: #452F1F;
+  border: greenyellow;
+  border-style: solid;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em; */
+}
+
+.header h1 {
+  color: #fff;
+}
+
+.navbar {
+  font-size: 18px;
+}
+
+/* .navbar ul,
+li,
+a {
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  list-style: none;
+  padding: 5px;
+}
+
+.navbar a:hover {
+  background-color: #ceb5af;
+  color: #180e0c;
+  transition: all 1s linear;
+  border-radius: .5em;
+} */
+
+/* MAIN SECTION */
+
+.main {
+  border: red;
+  border-style: solid;
+  /* display: grid; */
+  /* grid-template-columns: repeat(auto-fill, 100% 70%) 30%; */
+  /* justify-content: center; */
+}
+
+.main-panoramica {
+  background-color: #FFD966;
+  border: greenyellow;
+  border-style: solid;
+  width: 100%;
+}
+
+.main-presentacion {
+  background-color: #FFD966;
+  border: greenyellow;
+  border-style: solid;
+}
+
+.main-foto {
+  background-color: #FFD966;
+  border: greenyellow;
+  border-style: solid;
+}
+
+/* GENERAL SECTION */
+
+.general {
+  border: red;
+  border-style: solid;
+}
+
+.gen-formacion {
+  background-color: #FFEDDB;
+  border: greenyellow;
+  border-style: solid;
+}
+
+.gen-experiencia {
+  background-color: #EDCDBB;
+  border: greenyellow;
+  border-style: solid;
+}
+
+.gen-proyectos {
+  background-color: #E3B7A0;
+  border: greenyellow;
+  border-style: solid;
+}
+
+/* FOOTER SECTION */
+
+.footer {
+  background-color: #452F1F;
+  color: #fff;
+  border: red;
+  border-style: solid;
+}
+
+.contact {
+  background-color: #452F1F;
+  color: aliceblue;
+  border: greenyellow;
+  border-style: solid;
+}
+
+.d-footer {
+  background-color: #452F1F;
+  border: greenyellow;
+  border-style: solid;
+}
