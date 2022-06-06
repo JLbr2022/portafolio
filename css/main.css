@@ -5,17 +5,17 @@
 }
 
 .container {
-  border: red;
+  /* border: red;
   border-style: solid;
-  background-color: grey;
+  background-color: grey; */
 }
 
 /* HEADER + NAVBAR */
 
 .header {
   background-color: #452F1F;
-  border: greenyellow;
-  border-style: solid;
+  /* border: greenyellow;
+  border-style: solid; */
   /* display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -31,28 +31,38 @@
   font-size: 18px;
 }
 
-/* .navbar ul,
-li,
-a {
-  display: flex;
-  color: #fff;
-  text-decoration: none;
-  list-style: none;
-  padding: 5px;
+.grow-formacion {
+  /* border: greenyellow;
+  border-style: solid; */
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
-.navbar a:hover {
-  background-color: #ceb5af;
-  color: #180e0c;
-  transition: all 1s linear;
-  border-radius: .5em;
-} */
+.grow-experiencia {
+  /* border: greenyellow;
+  border-style: solid; */
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.grow-proyectos {
+  /* border: greenyellow;
+  border-style: solid; */
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
 
 /* MAIN SECTION */
 
 .main {
-  border: red;
-  border-style: solid;
+  /* border: red;
+  border-style: solid; */
   /* display: grid; */
   /* grid-template-columns: repeat(auto-fill, 100% 70%) 30%; */
   /* justify-content: center; */
@@ -60,66 +70,70 @@ a {
 
 .main-panoramica {
   background-color: #FFD966;
-  border: greenyellow;
-  border-style: solid;
+  /* border: greenyellow;
+  border-style: solid; */
   width: 100%;
 }
 
 .main-presentacion {
   background-color: #FFD966;
-  border: greenyellow;
-  border-style: solid;
+  /* border: greenyellow;
+  border-style: solid; */
 }
 
 .main-foto {
   background-color: #FFD966;
-  border: greenyellow;
-  border-style: solid;
+  /* border: greenyellow;
+  border-style: solid; */
 }
 
 /* GENERAL SECTION */
 
-.general {
+/* .general {
   border: red;
   border-style: solid;
-}
+} */
 
 .gen-formacion {
   background-color: #FFEDDB;
-  border: greenyellow;
-  border-style: solid;
+  /* border: greenyellow;
+  border-style: solid; */
 }
 
 .gen-experiencia {
   background-color: #EDCDBB;
-  border: greenyellow;
-  border-style: solid;
+  /* border: greenyellow;
+  border-style: solid; */
 }
 
 .gen-proyectos {
   background-color: #E3B7A0;
-  border: greenyellow;
-  border-style: solid;
+  /* border: greenyellow;
+  border-style: solid; */
 }
 
 /* FOOTER SECTION */
 
 .footer {
   background-color: #452F1F;
-  color: #fff;
+  /* color: #fff;
   border: red;
-  border-style: solid;
+  border-style: solid; */
 }
 
 .contact {
   background-color: #452F1F;
-  color: aliceblue;
+  /* color: aliceblue;
   border: greenyellow;
-  border-style: solid;
+  border-style: solid; */
 }
 
-.d-footer {
+.social {
   background-color: #452F1F;
-  border: greenyellow;
-  border-style: solid;
+}
+
+.footer {
+  background-color: #452F1F;
+  /* border: greenyellow;
+  border-style: solid; */
 }

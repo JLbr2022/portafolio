@@ -30,16 +30,19 @@
               <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Presentación</a>
+              <a class="nav-link" href="#presentacion">Presentación</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Formación</a>
+              <a class="nav-link" href="#formacion">Formación</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Experiencia</a>
+              <a class="nav-link" href="#experiencia">Experiencia</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Proyectos</a>
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
@@ -48,10 +51,11 @@
 
     <main class="main col">
       <div class="main-panoramica col-12">
-        <img src="img/PlazaDeTorosMeridaVenezuelaWEB.jpg" alt="" class="img-fluid">
+        <img src="img/PlazaDeTorosMeridaVenezuelaWEB.jpg" alt="FOTO: Plasa de toros de Maracay - Venezuela"
+          class="img-fluid">
       </div>
       <div class="submain row">
-        <div class="main-presentacion col-xl-6 col-sm-8">
+        <div id="main-presentacion" class="main-presentacion col-xl-6 col-sm-8">
           main-presentacion <br>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga accusantium eaque ducimus quibusdam
           aspernatur sapiente soluta corporis ut, animi esse saepe reiciendis optio! Mollitia inventore ab nam possimus
@@ -70,41 +74,114 @@
           sapiente harum tempora autem illo molestiae sed dolore expedita perspiciatis natus ad eligendi cumque!
         </div>
         <div class="main-foto col-xl-6 col-sm-4">
-          <img src="img/Flamingo_ME2.png" class="img-fluid mx-auto d-block" alt="">
+          <img src="img/Flamingo_ME2.png" class="img-fluid mx-auto d-block" alt="SelfieMe">
         </div>
       </div>
     </main>
 
-    <section id="general" class="sec-general">
-      <div class="gen-formacion col">
+    <section class="sec-general">
+      <div id="formacion" class="gen-formacion col">
         <div class="grow-formacion row-4">
-          gen-formacion 1
+          <h3>FORMACIÓN</h3>
+          <br>
+          <h5>Formación 1</h5>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae illum nulla earum sequi consequatur,
+          accusantium sapiente sed neque iste tempore odit, obcaecati itaque labore est vero facilis repellat aperiam
+          dolores?
         </div>
         <div class="grow-formacion row-4">
-          gen-formacion 2
+          <br>
+          <h5>Formación 2</h5>
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim voluptatem facere deserunt laudantium, quas
+          ratione quos debitis ipsum. Rem ipsum consequuntur mollitia molestiae cum beatae ut facilis laboriosam atque
+          ratione.
         </div>
+      </div>
 
-        <div class="grow-expericia row-4">
-          gen-expericia
+      <div id="experiencia" class="gen-experiencia col">
+        <div class="grow-experiencia row-4">
+          <h3>EXPERIENCIA LABORAL</h3>
+          <br>
+          <h5>Experiencia 1</h5>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia illo id numquam saepe, quasi molestiae
+          delectus aliquid, quibusdam iste, sunt fugit porro. Nisi quam explicabo, iusto vitae quaerat laboriosam.
+          Illo?
         </div>
-        <div class="grow-proyectos col-4">
-          gen-proyectos
+        <div class="grow-experiencia row-4">
+          <br>
+          <h5>Experiencia 1</h5>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit delectus modi doloremque, voluptate vel
+          consectetur quaerat saepe? Amet distinctio dolorum deserunt vel, earum labore adipisci sed nisi impedit
+          veritatis similique?
         </div>
+      </div>
+
+      <div id="proyectos" class="gen-proyectos col">
+        <div class="grow-proyectos row-4">
+          <h3>PROYECTOS</h3>
+          <br>
+          <h5>Proyecto 1</h5>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia illo id numquam saepe, quasi molestiae
+          delectus aliquid, quibusdam iste, sunt fugit porro. Nisi quam explicabo, iusto vitae quaerat laboriosam.
+          Illo?
+        </div>
+        <div class="grow-proyectos row-4">
+          <br>
+          <h5>Proyecto 2</h5>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit delectus modi doloremque, voluptate vel
+          consectetur quaerat saepe? Amet distinctio dolorum deserunt vel, earum labore adipisci sed nisi impedit
+          veritatis similique?
+        </div>
+      </div>
     </section>
 
-    <form action="" class="contact">
-      CONTACTO
+    <!-- CONTACT SECTION -->
+
+    <form id="contacto">
+      <span>
+        <br>
+        <h3>CONTÁCTEME POR EMAIL:</h3>
+      </span>
+      <div class="form-group">
+        <label for="exampleFormControlInput1">Su Email:</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+      </div>
+      <div class="form-group">
+        <label for="exampleFormControlTextarea1">Escriba su mensaje:</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <div class="btn-group" role="group" aria-label="Basic example">
+        <button type="button" class="btn btn-secondary">Limpiar</button>
+        <button type="button" class="btn btn-secondary">Enviar Mensaje</button>
+      </div>
     </form>
 
     <footer class="footer">
-      footer
+      <div class="social col">
+        <div class="instagram row-4">
+          <a href="https://www.instagram.com/jlfuve/">
+            <img src="icons/instagram.png" alt="Instragram" class="img-fluid mx-auto d-block col-1">
+          </a>
+        </div>
+        <div class="linkedin row-4">
+          <a href="https://www.linkedin.com/in/jose-freites-b784b0240/">
+            <img src="icons/linkedin.png" alt="LinkedIn" class="img-fluid mx-auto d-block col-1">
+          </a>
+        </div>
+        <div class="github row-4">
+          <a href="https://github.com/JLbr2022">
+            <img src="icons/github.png" alt="LinkedIn" class="img-fluid mx-auto d-block col-1">
+          </a>
+        </div>
+      </div>
     </footer>
 
 
     <!-- START BOOTSTRAP JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-      crossorigin="anonymous"></script>
+    <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+      </script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
       integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
       crossorigin="anonymous"></script>
