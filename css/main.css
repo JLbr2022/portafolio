@@ -12,8 +12,9 @@
 
 /* HEADER + NAVBAR */
 
-.header {
-  background-color: #452F1F;
+#header {
+  background-color: #372519;
+  /* height: 10em; */
   /* border: greenyellow;
   border-style: solid; */
   /* display: flex;
@@ -70,20 +71,14 @@
 }
 
 .main-panoramica {
-  background-color: #FFD966;
+  background-color: #fff8f0;
   border: greenyellow;
   border-style: solid;
   /* width: 100%; */
 }
 
-/* .main-foto {
-  background-color: #FFD966;
-  border: greenyellow;
-  border-style: solid;
-} */
-
 #main-presentacion {
-  background-color: #FFD966;
+  background-color: #fff8f0;
   border: greenyellow;
   border-style: solid;
 }
@@ -91,6 +86,7 @@
 #fotoselfi {
   border: greenyellow;
   border-style: solid;
+  background-color: #fff8f0;
 }
 
 /* GENERAL SECTION */
@@ -120,11 +116,18 @@
 
 /* FOOTER SECTION */
 
-.footer {
-  background-color: #452F1F;
-  /* color: #fff;
-  border: red;
-  border-style: solid; */
+#idfooter {
+  background-color: #372519;
+  /* height: 3em; */
+  border: greenyellow;
+  border-style: solid;
+}
+
+#inssocial,
+#linsocial,
+#gitsocial {
+  min-width: 8vh;
+  max-width: 9vh;
 }
 
 .contact {
@@ -136,11 +139,4 @@
 
 .social {
   background-color: #452F1F;
-}
-
-.footer {
-  background-color: #452F1F;
-  height: 3em;
-  border: greenyellow;
-  border-style: solid;
 }
