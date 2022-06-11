@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/main.css">
+  <link rel="stylesheet" href="css/main.css">
   <!-- END BOOSTRAP CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -14,78 +14,84 @@
 </head>
 
 <body>
-  <div class="container-fluid m-0">
+  <div id="container" class="container-fluid">
+    <!-- <header id="header"> -->
 
-    <header id="header">
-      <nav class="navbar navbar-expand-lg navbar-dark p-4">
-        <a class="navbar-brand" href="#">Mi Portafolio</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <nav id="header" class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">Mi Portafolio</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#presentacion">Presentación</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#formacion">Formación</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#experiencia">Experiencia</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#proyectos">Proyectos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#contacto">Contacto</a>
-            </li>
-          </ul>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#presentacion">Presentación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#formacion">Formación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#experiencia">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#proyectos">Proyectos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- </header> -->
+
+
+    <main class="col">
+      <div class="row">
+
+        <div class="imgMain">
+          <img class="img-fluid" src="img/PlazaDeTorosMeridaVenezuelaWEB.jpg"
+            alt="FOTO: Plaza de toros de Maracay - Venezuela">
         </div>
-      </nav>
-    </header>
 
-    <main class="row">
-      <div class="col-12">
-        <img src="img/PlazaDeTorosMeridaVenezuelaWEB.jpg" alt="FOTO: Plaza de toros de Maracay - Venezuela"
-          class="img-fluid">
+        <div id="main-presentacion" class="col-12 col-sm-12 col-md-8 pr-3 pl-4">
+          <p>
+          <h3>main-presentacion</h3> <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga accusantium eaque ducimus quibusdam
+          aspernatur sapiente soluta corporis ut, animi esse saepe reiciendis optio! Mollitia inventore ab nam
+          possimus
+          eos?
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At optio, magnam aspernatur rerum, dolorum animi
+          totam
+          sapiente harum tempora autem illo molestiae sed dolore expedita perspiciatis natus ad eligendi cumque!
+          main-presentacion <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga accusantium eaque ducimus quibusdam
+          aspernatur sapiente soluta corporis ut, animi esse saepe reiciendis optio! Mollitia inventore ab nam
+          possimus
+          eos?
+          <br>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. At optio, magnam aspernatur rerum, dolorum animi
+          totam
+          sapiente harum tempora autem illo molestiae sed dolore expedita perspiciatis natus ad eligendi cumque!
+          </p>
+        </div>
+
+        <div id="fotoselfi" class="col-12 col-sm-12 col-md-4 pr-4 d-flex justify-content-center">
+          <img src="img/Flamingo_ME2.jpg" class="img-fluid pt-4 pb-4 pl-4 float-right" alt="FOTOSelfieMe">
+        </div>
+
       </div>
-      <!-- <div class="row"> -->
-      <div id="main-presentacion" class="col">
-        <p>
-        <h3>main-presentacion</h3> <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga accusantium eaque ducimus quibusdam
-        aspernatur sapiente soluta corporis ut, animi esse saepe reiciendis optio! Mollitia inventore ab nam
-        possimus
-        eos?
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. At optio, magnam aspernatur rerum, dolorum animi
-        totam
-        sapiente harum tempora autem illo molestiae sed dolore expedita perspiciatis natus ad eligendi cumque!
-        main-presentacion <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus fuga accusantium eaque ducimus quibusdam
-        aspernatur sapiente soluta corporis ut, animi esse saepe reiciendis optio! Mollitia inventore ab nam
-        possimus
-        eos?
-        <br>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. At optio, magnam aspernatur rerum, dolorum animi
-        totam
-        sapiente harum tempora autem illo molestiae sed dolore expedita perspiciatis natus ad eligendi cumque!
-        </p>
-      </div>
-      <div id="fotoselfi" class="col">
-        <img src="img/Flamingo_ME2.jpg" class="img-fluid float-end" alt="SelfieMe">
-      </div>
-      <!-- </div> -->
     </main>
 
-    <section class="sec-general">
+    <section>
       <div id="formacion" class="gen-formacion col">
-        <div class="grow-formacion row-4">
+        <div class="grow-formacion row-4 row-12">
           <h3>FORMACIÓN</h3>
           <br>
           <h5>Formación 1</h5>
@@ -138,6 +144,7 @@
           veritatis similique?
         </div>
       </div>
+
     </section>
 
     <!-- CONTACT SECTION -->
@@ -161,19 +168,35 @@
       </div>
     </form>
 
-    <footer id="idfooter" class="row p-4 mt-4">
-      <a href="https://www.instagram.com/jlfuve/">
-        <img id="inssocial" src="icons/instagram.png" alt="Instragram" class="col-1 img-fluid d-block">
-      </a>
-      <a href="https://www.linkedin.com/in/jose-freites-b784b0240/">
-        <img id="linsocial" src="icons/linkedin.png" alt="LinkedIn" class="col-1 img-fluid">
-      </a>
-      <a href="https://github.com/JLbr2022">
-        <img id="gitsocial" src="icons/github.png" alt="LinkedIn" class="col-1 img-fluid">
-      </a>
-      <h5 id="idft_h5" class="col mb-3 text-white d-flex justify-content-end">Designed by
-        José
-        Freites</h5>
+    <footer class="footer">
+      <div class="container-fluid">
+        <div class="row">
+
+          <div id="idfooter" class="col-1 p-4 mt-4">
+            <a href="https://www.instagram.com/jlfuve/">
+              <img id="inssocial" src="icons/instagram.png" alt="Instragram" class="col-1 img-fluid d-block">
+            </a>
+          </div>
+
+          <div id="idfooter" class="col-1 p-4 mt-4">
+            <a href="https://www.linkedin.com/in/jose-freites-b784b0240/">
+              <img id="linsocial" src="icons/linkedin.png" alt="LinkedIn" class="col-1 img-fluid">
+            </a>
+          </div>
+
+          <div id="idfooter" class="col-1 p-4 mt-4">
+            <a href="https://github.com/JLbr2022">
+              <img id="gitsocial" src="icons/github.png" alt="LinkedIn" class="col-1 img-fluid">
+            </a>
+          </div>
+
+          <div class="aligh-center">
+            <h5 id="idft_h5" class="text-white">Designed by
+              José Freites</h5>
+          </div>
+
+        </div>
+      </div>
     </footer>
 
 

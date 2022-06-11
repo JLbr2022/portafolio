@@ -4,11 +4,11 @@
   box-sizing: border-box;
 }
 
-/* .container {
+#container {
   border: red;
   border-style: solid;
   background-color: grey;
-} */
+}
 
 /* HEADER + NAVBAR */
 
@@ -116,8 +116,14 @@
 
 /* FOOTER SECTION */
 
-#idfooter {
+.footer {
   background-color: #372519;
+  border: greenyellow;
+  border-style: solid;
+  vertical-align: middle;
+}
+
+#idfooter {
   /* height: 3em; */
   border: greenyellow;
   border-style: solid;
