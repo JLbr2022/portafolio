@@ -33,6 +33,12 @@
   font-size: 28px;
 } */
 
+.navbar .titulo {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+}
+
 .grow-formacion {
   /* border: greenyellow;
   border-style: solid; */
