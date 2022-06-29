@@ -1,71 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-#container {
-  border: red;
-  border-style: solid;
-  background-color: grey;
-}
-
-/* HEADER + NAVBAR */
-
-#header {
-  background-color: #372519;
-  /* height: 10em; */
-  /* border: greenyellow;
-  border-style: solid; */
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em; */
-}
-
-/* 
-.header h1 {
-  color: #000;
-} */
-
-/* #nav__bar {
-  font-size: 28px;
-} */
-
-.navbar .titulo {
-  color: #fff;
-  font-size: 40px;
-  font-weight: bold;
-}
-
-.grow-formacion {
-  /* border: greenyellow;
-  border-style: solid; */
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.grow-experiencia {
-  /* border: greenyellow;
-  border-style: solid; */
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
-.grow-proyectos {
-  /* border: greenyellow;
-  border-style: solid; */
-  padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 1em;
-  padding-bottom: 1em;
-}
-
 /* MAIN SECTION */
 
 .main {
@@ -95,6 +27,33 @@
   background-color: #fff8f0;
 }
 
+.grow-formacion {
+  /* border: greenyellow;
+  border-style: solid; */
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.grow-experiencia {
+  /* border: greenyellow;
+  border-style: solid; */
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.grow-proyectos {
+  /* border: greenyellow;
+  border-style: solid; */
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
 /* GENERAL SECTION */
 
 /* .general {
@@ -118,37 +77,4 @@
   background-color: #E3B7A0;
   /* border: greenyellow;
   border-style: solid; */
-}
-
-/* FOOTER SECTION */
-
-.footer {
-  background-color: #372519;
-  border: greenyellow;
-  border-style: solid;
-  vertical-align: middle;
-}
-
-#idfooter {
-  /* height: 3em; */
-  border: greenyellow;
-  border-style: solid;
-}
-
-#inssocial,
-#linsocial,
-#gitsocial {
-  min-width: 8vh;
-  max-width: 9vh;
-}
-
-.contact {
-  background-color: #452F1F;
-  /* color: aliceblue;
-  border: greenyellow;
-  border-style: solid; */
-}
-
-.social {
-  background-color: #452F1F;
 }
