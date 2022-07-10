@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/contact.css">
+
+
+
   <!-- END BOOSTRAP CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -150,25 +154,30 @@
     </section>
 
     <!-- CONTACT SECTION -->
+    <div class="contact row d-flex justify-content-center">
+      <form id="contact" class="col col-md-8">
+        <span>
+          <br>
+          <h3>CONTÁCTEME POR EMAIL:</h3>
+        </span>
+        <div class="form-group">
+          <label for="formEmail">Su Email:</label>
+          <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+          <small id="errorEmail" class="warningTxt form-text"></small>
+        </div>
+        <div class="form-group">
+          <label for="formTextArea">Escriba su mensaje:</label>
+          <textarea class="form-control" id="inputTextArea" rows="3"></textarea>
+          <small id="errorTextArea" class="warningTxt form-text"></small>
+        </div>
+        <div class="form-group">
+          <button type="button" class="btn btn-success mb-6 col-md-12"
+            onclick="formValidation(form.inputEmail.value, form.inputTextArea.value)">Enviar</button>
+        </div>
+      </form>
+    </div>
 
-    <form id="contacto">
-      <span>
-        <br>
-        <h3>CONTÁCTEME POR EMAIL:</h3>
-      </span>
-      <div class="form-group">
-        <label for="exampleFormControlInput1">Su Email:</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-      </div>
-      <div class="form-group">
-        <label for="exampleFormControlTextarea1">Escriba su mensaje:</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-      </div>
-      <div class="btn-group" role="group" aria-label="Basic example">
-        <button type="button" class="btn btn-secondary">Limpiar</button>
-        <button type="button" class="btn btn-secondary">Enviar Mensaje</button>
-      </div>
-    </form>
+
 
     <footer class="footer">
       <div class="container-fluid">
@@ -203,6 +212,12 @@
 
 
   </div>
+
+
+
+  <!-- START LINKING JS FILE -->
+  <script src="js/main.js"></script>
+  <!-- END LINKING JS FILE -->
 
   <!-- START BOOTSTRAP JS -->
   <script src=" https://code.jquery.com/jquery-3.3.1.slim.min.js"

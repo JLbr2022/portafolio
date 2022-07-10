@@ -1,4 +1,16 @@
-/* MAIN SECTION */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  border: red;
+  border-style: solid;
+  /* background-color: grey; */
+}
+
+/* MAIN CSS SECTION */
 
 .main {
   border: red;
