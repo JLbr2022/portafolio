@@ -1,44 +1,51 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  text-decoration: none;
 }
 
-/* .container {
+#container {
+  /* border: red;
+  border-style: solid; */
+  /* background-color: grey; */
+}
+
+/* MAIN CSS SECTION */
+
+/* .main {
   border: red;
   border-style: solid;
-  background-color: grey;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 100% 70%) 30%;
+  justify-content: center;
 } */
 
-/* HEADER + NAVBAR */
-
-.header {
-  background-color: #452F1F;
-  /* border: greenyellow;
+.main-panoramica {
+  /* background-color: #fff8f0;
+  border: greenyellow;
   border-style: solid; */
-  /* display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  padding: 1em; */
+  /* width: 100%; */
 }
 
-/* 
-.header h1 {
-  color: #000;
-} */
+#main-presentacion {
+  /* background-color: #fff8f0;
+  border: greenyellow;
+  border-style: solid; */
+}
 
-/* #nav__bar {
-  font-size: 28px;
-} */
+#fotoselfi {
+  /* border: greenyellow;
+  border-style: solid;
+  background-color: #fff8f0; */
+}
 
 .grow-formacion {
   /* border: greenyellow;
   border-style: solid; */
-  padding-left: 20%;
+  /* padding-left: 20%;
   padding-right: 20%;
   padding-top: 1em;
-  padding-bottom: 1em;
+  padding-bottom: 1em; */
 }
 
 .grow-experiencia {
@@ -50,47 +57,66 @@
   padding-bottom: 1em;
 }
 
-.grow-proyectos {
+.gen-proyectos h3 {
   /* border: greenyellow;
-  border-style: solid; */
+  /* border-style: solid; */
   padding-left: 20%;
   padding-right: 20%;
   padding-top: 1em;
   padding-bottom: 1em;
 }
 
-/* MAIN SECTION */
-
-.main {
-  border: red;
-  border-style: solid;
-  /* display: grid; */
-  /* grid-template-columns: repeat(auto-fill, 100% 70%) 30%; */
-  /* justify-content: center; */
+.card1Proyect {
+  /* border: greenyellow;
+  border-style: solid; */
+  padding-left: 20%;
+  /* padding-right: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em; */
 }
 
-.main-panoramica {
-  background-color: #FFD966;
-  border: greenyellow;
-  border-style: solid;
-  /* width: 100%; */
+.card2Proyect {
+  /* border: greenyellow;
+  border-style: solid; */
+  padding: 0em 1em 5em 0em;
+  /* padding-right: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em; */
 }
 
-/* .main-foto {
-  background-color: #FFD966;
-  border: greenyellow;
-  border-style: solid;
-} */
-
-#main-presentacion {
-  background-color: #FFD966;
-  border: greenyellow;
-  border-style: solid;
+#proyectos {
+  /* border: greenyellow;
+  border-style: solid; */
+  padding-left: 22%;
+  padding-right: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }
 
-#fotoselfi {
-  border: greenyellow;
-  border-style: solid;
+.grow-proyectos {
+  /* border: greenyellow;
+  border-style: solid; */
+  /* padding-left: 20%;
+  padding-right: 20%;
+  padding-top: 1em;
+  padding-bottom: 1em; */
+
+}
+
+.card:hover {
+
+  box-shadow: 1em;
+  transform: scale(1.02);
+}
+
+.card {
+  width: 18rem;
+  transition: transform .5s;
+}
+
+.cardImage {
+  width: 100%;
+  height: 180;
 }
 
 /* GENERAL SECTION */
@@ -116,31 +142,4 @@
   background-color: #E3B7A0;
   /* border: greenyellow;
   border-style: solid; */
-}
-
-/* FOOTER SECTION */
-
-.footer {
-  background-color: #452F1F;
-  /* color: #fff;
-  border: red;
-  border-style: solid; */
-}
-
-.contact {
-  background-color: #452F1F;
-  /* color: aliceblue;
-  border: greenyellow;
-  border-style: solid; */
-}
-
-.social {
-  background-color: #452F1F;
-}
-
-.footer {
-  background-color: #452F1F;
-  height: 3em;
-  border: greenyellow;
-  border-style: solid;
 }

@@ -1,0 +1,41 @@
+/* FOOTER SECTION */
+
+.footer {
+  background-color: #372519;
+  /* border: greenyellow; */
+  border-style: solid;
+  vertical-align: middle;
+  padding: 3em;
+}
+
+.footer h5 {
+  color: #7c7671;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+#idfooter {
+  /* height: 3em; */
+  border: greenyellow;
+  border-style: solid;
+}
+
+#inssocial,
+#linsocial,
+#gitsocial {
+  min-width: 8vh;
+  max-width: 9vh;
+}
+
+.contact {
+  background-color: #452F1F;
+  /* color: aliceblue;
+  border: greenyellow;
+  border-style: solid; */
+}
+
+.social {
+  background-color: #452F1F;
+}
