@@ -5,10 +5,14 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon">
+
   <link rel="stylesheet" href="css/header.css">
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/footer.css">
   <link rel="stylesheet" href="css/contact.css">
+
 
 
 
@@ -138,85 +142,99 @@
       </div>
 
       <!-- PROYECTOS -->
-      <div id="proyectos" class="grow-experiencia gen-proyectos col p-3">
-        <h3>PROYECTOS</h3>
-
-        <div class="card row-4">
-          <a href="https://github.com/JLbr2022/JS-ProyectoFinal" class="stretched-link" target="_blank"></a>
-          <img src="https://raw.githubusercontent.com/JLbr2022/JS-ProyectoFinal/master/img/principalScreen.jpg"
-            class="card-img-top" alt="Imagen: Buscador de países interactivo...">
-
-          <div class="card-body">
-            <h5 class="card-title">Buscador Interactivo</h5>
-            <p class="card-text fs-2">
-              Búsqueda por: <br>
-              .- Nombre de país,<br>
-              .- Continente.<br>
-            </p>
-          </div>
-        </div>
-
-      </div>
-
-    </section>
-
-    <!-- CONTACT SECTION -->
-
-    <div id="contacto" class="contact row d-flex justify-content-center">
-      <form id="contact" class="col col-md-8">
-        <span>
-          <br>
-          <h3>CONTÁCTEME POR EMAIL:</h3>
-        </span>
-        <div class="form-group">
-          <label for="formEmail">Su Email:</label>
-          <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
-          <small id="errorEmail" class="warningTxt form-text"></small>
-        </div>
-        <div class="form-group">
-          <label for="formTextArea">Escriba su mensaje:</label>
-          <textarea class="form-control" id="inputTextArea" rows="3"></textarea>
-          <small id="errorTextArea" class="warningTxt form-text"></small>
-        </div>
-        <div class="form-group">
-          <button type="button" class="btn btn-success mb-6 col-md-12"
-            onclick="formValidation(form.inputEmail.value, form.inputTextArea.value)">Enviar</button>
-        </div>
-      </form>
-    </div>
-
-
-
-    <footer class="footer">
-      <div class="container-fluid">
+      <div id="proyectos" class="container-fluid gen-proyectos">
+        <h3 class="h3Proyectos">PROYECTOS</h3>
         <div class="row">
-
-          <div id="idfooter" class="col-1 p-4 mt-4">
-            <a href="https://www.instagram.com/jlfuve/">
-              <img id="inssocial" src="icons/instagram.png" alt="Instragram" class="col-1 img-fluid d-block">
-            </a>
+          <div class="card2Proyect">
+            <div class="card">
+              <a href="https://github.com/JLbr2022/JS-ProyectoFinal" class="stretched-link" target="_blank"></a>
+              <img src="https://raw.githubusercontent.com/JLbr2022/JS-ProyectoFinal/master/img/principalScreen.jpg"
+                class="card-img-top" alt="Imagen: Buscador de países interactivo...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Buscador Interactivo</h5>
+                <p class="card-text">
+                  Búsqueda por: <br>
+                  .- Nombre de país,<br>
+                  .- Continente.<br>
+                </p>
+              </div>
+            </div>
           </div>
-
-          <div id="idfooter" class="col-1 p-4 mt-4">
-            <a href="https://www.linkedin.com/in/jose-freites-b784b0240/">
-              <img id="linsocial" src="icons/linkedin.png" alt="LinkedIn" class="col-1 img-fluid">
-            </a>
+          <div class="card2Proyect">
+            <div class="card">
+              <a href="https://github.com/JLbr2022/css-Aula-08" class="stretched-link" target="_blank"></a>
+              <img src="https://raw.githubusercontent.com/JLbr2022/css-Aula-08/master/images/ej0-photo.jpg"
+                class="card-img-top" alt="Imagen: Buscador de países interactivo...">
+              <div class="card-body">
+                <h5 class="card-title text-center">Web formato celular</h5>
+                <p class="card-text"><br><br></p>
+              </div>
+            </div>
           </div>
-
-          <div id="idfooter" class="col-1 p-4 mt-4">
-            <a href="https://github.com/JLbr2022">
-              <img id="gitsocial" src="icons/github.png" alt="LinkedIn" class="col-1 img-fluid">
-            </a>
-          </div>
-
-          <div class="aligh-center">
-            <h5 id="idft_h5" class="text-white">Designed by
-              José Freites</h5>
-          </div>
-
         </div>
       </div>
-    </footer>
+
+  </div>
+
+  </section>
+
+  <!-- CONTACT SECTION -->
+
+  <div id="contacto" class="contact row d-flex justify-content-center p-5">
+    <form id="contact" class="col col-md-8">
+      <span>
+        <br>
+        <h3>CONTÁCTEME POR EMAIL:</h3>
+      </span>
+      <div class="form-group">
+        <label for="formEmail">Su Email:</label>
+        <input type="email" class="form-control" id="inputEmail" placeholder="name@example.com">
+        <small id="errorEmail" class="warningTxt form-text"></small>
+      </div>
+      <div class="form-group">
+        <label for="formTextArea">Escriba su mensaje:</label>
+        <textarea class="form-control" id="inputTextArea" rows="3"></textarea>
+        <small id="errorTextArea" class="warningTxt form-text"></small>
+      </div>
+      <div class="form-group">
+        <button type="button" class="btn btn-success mb-6 col-md-12"
+          onclick="formValidation(form.inputEmail.value, form.inputTextArea.value)">Enviar</button>
+      </div>
+    </form>
+  </div>
+
+
+
+  <footer class="footer">
+    <div class="container-fluid">
+      <div class="row">
+
+        <!-- <div id="idfooter" class="col-1 p-4 mt-4">
+          <a href="https://www.instagram.com/jlfuve/">
+            <img id="inssocial" src="icons/instagram.png" alt="Instragram" class="col-1 img-fluid d-block">
+          </a>
+        </div>
+
+        <div id="idfooter" class="col-1 p-4 mt-4">
+          <a href="https://www.linkedin.com/in/jose-freites-b784b0240/">
+            <img id="linsocial" src="icons/linkedin.png" alt="LinkedIn" class="col-1 img-fluid">
+          </a>
+        </div>
+
+        <div id="idfooter" class="col-1 p-4 mt-4">
+          <a href="https://github.com/JLbr2022">
+            <img id="gitsocial" src="icons/github.png" alt="LinkedIn" class="col-1 img-fluid">
+          </a>
+        </div> -->
+
+        <div class="col">
+          <h5>Designed by
+            José Freites</h5>
+        </div>
+
+      </div>
+    </div>
+  </footer>
 
 
   </div>

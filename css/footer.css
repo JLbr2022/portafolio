@@ -2,9 +2,18 @@
 
 .footer {
   background-color: #372519;
-  border: greenyellow;
+  /* border: greenyellow; */
   border-style: solid;
   vertical-align: middle;
+  padding: 3em;
+}
+
+.footer h5 {
+  color: #7c7671;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
 }
 
 #idfooter {
