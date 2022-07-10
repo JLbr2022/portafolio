@@ -4,21 +4,7 @@
   text-decoration: none;
 }
 
-#container {
-  /* border: red;
-  border-style: solid; */
-  /* background-color: grey; */
-}
-
 /* MAIN CSS SECTION */
-
-/* .main {
-  border: red;
-  border-style: solid;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, 100% 70%) 30%;
-  justify-content: center;
-} */
 
 .main-panoramica {
   /* background-color: #fff8f0;
@@ -39,15 +25,6 @@
   background-color: #fff8f0; */
 }
 
-.grow-formacion {
-  /* border: greenyellow;
-  border-style: solid; */
-  /* padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 1em;
-  padding-bottom: 1em; */
-}
-
 .grow-experiencia {
   /* border: greenyellow;
   border-style: solid; */
@@ -66,13 +43,8 @@
   padding-bottom: 1em;
 }
 
-.card2Proyect {
-  /* border: greenyellow;
-  border-style: solid; */
-  padding: 0em 1em 5em 0em;
-  /* padding-right: 20%;
-  padding-top: 1em;
-  padding-bottom: 1em; */
+.cardProyect {
+  padding: 0em 3em 5em 0em;
 }
 
 #proyectos {
@@ -82,16 +54,6 @@
   padding-right: 20%;
   padding-top: 1em;
   padding-bottom: 1em;
-}
-
-.grow-proyectos {
-  /* border: greenyellow;
-  border-style: solid; */
-  /* padding-left: 20%;
-  padding-right: 20%;
-  padding-top: 1em;
-  padding-bottom: 1em; */
-
 }
 
 .card:hover {
@@ -111,11 +73,6 @@
 }
 
 /* GENERAL SECTION */
-
-/* .general {
-  border: red;
-  border-style: solid;
-} */
 
 .gen-formacion {
   background-color: #FFEDDB;
