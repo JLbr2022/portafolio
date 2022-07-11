@@ -12,6 +12,8 @@ function formValidation(fEmail, fTextArea) {
       "Escriba un email válido...! (ejemplo@dominio.com)";
 
     document.getElementById("inputEmail").focus();
+  } else {
+    document.getElementById("errorEmail").innerHTML = "";
   }
 
   if (fTextArea.length == "") {
@@ -19,11 +21,11 @@ function formValidation(fEmail, fTextArea) {
       "Escriba un mensaje...!";
 
     document.getElementById("inputTextArea").focus();
+  } else {
+    document.getElementById("errorTextArea").innerHTML = "";
   }
 
   if (isValid == true && fTextArea != "") {
-    document.getElementById("errorEmail").innerHTML = "";
-    document.getElementById("errorTextArea").innerHTML = "";
     form.reset();
   }
 }
