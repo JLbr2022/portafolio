@@ -1,7 +1,8 @@
 // FUCTION TO VALIDATE THE CONTACT FORM
 
 function formValidation(fEmail, fTextArea) {
-  var fExpValidEmail = /\S+@\S+\.\S+/;
+  var fExpValidEmail = /^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/;
+
   var isValid = fExpValidEmail.test(fEmail);
 
   if (isValid == true) {
@@ -10,7 +11,7 @@ function formValidation(fEmail, fTextArea) {
   } else {
     alert("Invalid Email");
     document.getElementById("errorEmail").innerHTML =
-      "Escriba un email válido...!";
+      "Escriba un email válido...! (ejemplo@dominio.com)";
     document.getElementById("inputEmail").focus();
   }
 
